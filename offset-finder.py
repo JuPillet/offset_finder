@@ -1,9 +1,12 @@
 import sys
 
-string =	"AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIII"
-string +=	"JJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRR"
-string +=	"SSSSTTTTUUUUVVVVWWWWXXXXYYYYZZZZ0000"
-string +=	"111122223333444455556666777788889999"
+string =	"000011112222333344445555666677778888"
+string +=	"9999AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHH"
+string +=	"IIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQ"
+string +=	"RRRRSSSSTTTTUUUUVVVVWWWWXXXXYYYYZZZZ"
+string +=	"^^^^aaaabbbbccccddddeeeeffffgggghhhh"
+string +=	"iiiijjjjkkkkllllmmmmnnnnooooppppqqqq"
+string +=	"rrrrssssttttuuuuvvvvwwwwxxxxyyyyzzzz"
 
 def	Exit(script = None):
 	print('if you need a 21 bytes execshell (source: https://shell-storm.org/shellcode/files/shellcode-517.html):')
