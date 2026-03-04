@@ -9,22 +9,19 @@ EN : This tool was developed for academic study purposes (such as 42 projects) t
 1. Identify	Injectez la chaîne cyclique dans le programme cible.	Inject the cyclic string into the target program.
 2. Locate	Récupérez l'adresse du crash (ex: 0x41414242) via GDB.	Retrieve the crash address (e.g., 0x41414242) via GDB.
 3. Generate	L'outil calcule l'offset et crée le script de payload.	The tool calculates the offset and creates the payload script.
+
 🚀 Utilisation / Usage
 
-
 Terminal Mode
-FR : Idéal pour automatiser vos tests de pénétration en passant les adresses en arguments :
-EN : Ideal for automating your penetration tests by passing addresses as arguments:
-
+FR : Automatiser les tests de pénétration en passant les adresses en arguments :
+EN : Automating the penetration tests by passing addresses as arguments:
 ```Bash
 # python3 offset_finder.py <addr_crash> <addr_destination>
 python3 offset_finder.py 0x54545454 0x080484a4
 ```
 
-Interactive Mode
-FR : Mode guidé pour les étudiants en cybersécurité :
-EN : Guided mode for cybersecurity students:
 
+FR: Est Interactif / EN : Is Interactive :
 ```Bash
 python3 offset_finder.py
 ```
