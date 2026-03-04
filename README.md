@@ -2,6 +2,7 @@ Offset Finder & Payload Generator
 
 📝 Description (FR / EN)
 FR : Cet outil a été développé dans le cadre d'études académiques (projets type 42) pour accompagner ceux qui souhaitent apprendre et pratiquer la cybersécurité. Il facilite l'exploitation de vulnérabilités liées à la mémoire (Buffer Overflow) en déterminant l'offset nécessaire pour écraser le registre d'instruction et en générant un script Python pour rediriger le flux d'exécution.
+
 EN : This tool was developed for academic study purposes (such as 42 projects) to support those wishing to dive into cybersecurity. It simplifies the exploitation of memory vulnerabilities (Buffer Overflow) by finding the exact offset needed to overwrite the instruction register and generating a Python script to redirect the execution flow.
 
 🛠️ Fonctionnement / How it Works
