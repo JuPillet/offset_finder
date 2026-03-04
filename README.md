@@ -1,16 +1,18 @@
 Offset Finder & Payload Generator
 
 📝 Description (FR / EN)
-
 FR : Cet outil a été développé dans le cadre d'études académiques (projets type 42) pour accompagner ceux qui souhaitent apprendre et pratiquer la cybersécurité. Il facilite l'exploitation de vulnérabilités liées à la mémoire (Buffer Overflow) en déterminant l'offset nécessaire pour écraser le registre d'instruction et en générant un script Python pour rediriger le flux d'exécution.
-
 EN : This tool was developed for academic study purposes (such as 42 projects) to support those wishing to dive into cybersecurity. It simplifies the exploitation of memory vulnerabilities (Buffer Overflow) by finding the exact offset needed to overwrite the instruction register and generating a Python script to redirect the execution flow.
-🛠️ Fonctionnement / How it Works
 
-Étape / Step	FR	EN
-1. Identify	Injectez la chaîne cyclique dans le programme cible.	Inject the cyclic string into the target program.
-2. Locate	Récupérez l'adresse du crash (ex: 0x41414242) via GDB.	Retrieve the crash address (e.g., 0x41414242) via GDB.
-3. Generate	L'outil calcule l'offset et crée le script de payload.	The tool calculates the offset and creates the payload script.
+🛠️ Fonctionnement / How it Works
+FR Étape
+1. Identify Injectez la chaîne cyclique dans le programme cible.
+2. Locate Récupérez l'adresse du crash (ex: 0x41414242) via GDB.
+3. Generate L'outil calcule l'offset et crée le script de payload.
+EN Step
+1. Inject the cyclic string into the target program.
+2. Retrieve the crash address (e.g., 0x41414242) via GDB.
+4. The tool calculates the offset and creates the payload script.
 
 🚀 Utilisation / Usage
 
